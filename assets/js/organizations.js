@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    document.title = "Un sito un pò barboso - Organizations";
+    document.title = "Sito fantastico - Organizzazioni";
     $('#table_organizations').DataTable({
         ajax: {
             url: 'https://62aae044371180affbdc214a.mockapi.io/organizations',

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    document.title = "Un sito un pò barboso - Employees";
+    document.title = "Un sito bello per persone belle - Dipendenti";
     $('#table_employees').DataTable({
         ajax: {
             url: 'https://62aae044371180affbdc214a.mockapi.io/Employees',

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    document.title = "Un sito un pò barboso - Tizio barbuto";
+    document.title = "Sito figo per una persona figa - Frank Gallagher";
     const sidebarLinks = document.querySelectorAll('#sidebar-links a');
     sidebarLinks.forEach(link => {
         link.addEventListener('click', () => {
