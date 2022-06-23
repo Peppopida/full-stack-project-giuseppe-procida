@@ -1,4 +1,4 @@
 # Web Designer Project
 ## Giuseppe Procida
----
-Testo normale
+
+Progetto esercitazione iniziata il 23/06/2022.
