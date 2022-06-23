@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    document.title = "Sito figo per una persona figa - Frank Gallagher";
+    document.title = "Frank Gallagher";
     const sidebarLinks = document.querySelectorAll('#sidebar-links a');
     sidebarLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -50,18 +50,16 @@ document.addEventListener('DOMContentLoaded', function () {
             const params = new Proxy(new URLSearchParams(window.location.search), {
                 get: (searchParams, prop) => searchParams.get(prop),
             });
-            let detail_id = params.id;
-            if (!detail_id) {
-                location.href = '/employees.html'
-            } else {
-                axios.get(`https://62aae044371180affbdc214a.mockapi.io/Employees/${detail_id}/tizioBarbuto`)
-                    .then(response => {
-                        this.detail = response.data[0];
-                    })
-            }
+            // let detail_id = params.id;
+            // if (!detail_id) {
+            //     location.href = '/employees.html'
+            // } else {
+            //     axios.get(`https://62aae044371180affbdc214a.mockapi.io/Employees/${detail_id}/tizioBarbuto`)
+            //         .then(response => {
+            //             this.detail = response.data[0];
+            //         })
+            // }
         }
     }).mount('#app');
-
-
 });
 
