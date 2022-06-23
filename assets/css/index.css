@@ -6,7 +6,7 @@ section {
 }
 
 section.card .card-body {
-    background: rgb(252, 136, 136);
+    background: rgb(217, 235, 255);
 }
 
 @media screen and (min-width: 992px) {
