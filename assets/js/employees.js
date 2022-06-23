@@ -8,7 +8,7 @@ $(document).ready(function () {
         columns: [
             {
                 data: 'id', render: function (data, type) {
-                    return `<a role="button" href="/tizio-barbuto.html?id=${data}" class="btn btn-link">${data}</a>`;
+                    return `<a role="button" href="/user.html?id=${data}" class="btn btn-link">${data}</a>`;
                 }
             },
             {data: 'name'},
@@ -29,7 +29,7 @@ $(document).ready(function () {
                         '<i class="fa-solid fa-ellipsis-vertical"></i>' +
                         '</button>' +
                         '<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">' +
-                        `<li><a class="dropdown-item" href="/tizio-barbuto.html?id=${data}">Details</a></li>` +
+                        `<li><a class="dropdown-item" href="/user.html?id=${data}">Details</a></li>` +
                         '<li><a class="dropdown-item" href="#">Another action</a></li>' +
                         '<li><a class="dropdown-item" href="#">Something else here</a></li>' +
                         '</ul>' +
